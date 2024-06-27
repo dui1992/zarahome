@@ -1,0 +1,1093 @@
+@charset "utf-8";
+
+
+
+/* 💥💥main visual💥💥 */
+
+.main_visual {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.main_visual .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.main_visual .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.main_visual .main_text {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.main_visual .main_text>p {
+  margin-bottom: 70px;
+  font-weight: 300;
+}
+
+.main_visual .main_text .title {
+  font-family: 'Theano Didot';
+}
+
+.main_visual .main_text .title h2 {
+  font-weight: normal;
+  font-size: 80px;
+  margin-bottom: 50px;
+  filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.4));
+}
+
+.main_visual .main_text .title p {
+  font-size: 36px;
+  margin-bottom: 70px;
+  filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.4));
+}
+
+.main_visual .main_text a {
+  display: inline-block;
+  border: 1px #fff solid;
+  padding: 18px 50px;
+}
+
+/* 💥💥new arrival💥💥 */
+
+.new_arrival {
+  background-color: #1a1a1a;
+  width: 100%;
+  color: #fff;
+}
+
+.new_arrival .inner100 {
+  width: 100%;
+  padding: 150px 0;
+}
+
+.new_arrival .inner100 .sec_text {
+  max-width: 1600px;
+  width: calc(100% - 40px);
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.new_arrival .inner100 .sec_text .title {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+.new_arrival .inner100 .sec_text .title h3 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.new_arrival .inner100 .sec_text .title p {
+  font-size: 24px;
+  transform: translateY(-5px);
+}
+
+.new_arrival .inner100 .sec_text .view_btn a span {
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+
+/* 💥new Slide💥 */
+
+.new_arrival .inner100 .newSlide {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.new_arrival .inner100 .newSlide .swiper-wrapper {
+  width: 1760px;
+  margin-left: auto;
+}
+
+.new_arrival .inner100 .newSlide .swiper-slide .item figure {
+  max-height: 320px;
+  height: 18.18vw;
+  margin-bottom: 24px;
+}
+
+.new_arrival .inner100 .newSlide .swiper-slide .item figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.new_arrival .inner100 .newSlide .swiper-slide .item .item_text {
+  padding-bottom: 70px;
+}
+
+.new_arrival .inner100 .newSlide .swiper-slide .item .item_text p {
+  margin-bottom: 16px;
+}
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  max-width: 1600px;
+  width: calc(100% - 40px);
+  background-color: #fff;
+  border-radius: 0;
+  height: 1px;
+  left: 50%;
+  transform: translateY(-2px);
+  transform: translateX(-50%);
+}
+
+/* 
+.swiper-scrollbar {
+  background-color: #fff;
+  border-radius: 0;
+  height: 1px;
+
+} */
+
+
+.swiper-scrollbar-drag {
+  background-color: #fff;
+  border-radius: 0;
+  height: 5px;
+}
+
+
+
+
+/* 💥💥sale💥💥 */
+
+.sale .inner {
+  padding: 150px 0;
+}
+
+.sale .inner .sec_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+
+.sale .inner .sec_text .title {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+.sale .inner .sec_text .title h3 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.sale .inner .sec_text .title p {
+  font-size: 24px;
+  transform: translateY(-5px);
+}
+
+.sale .inner .sec_text .view_btn a span {
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.sale .inner .item_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1.2vw;
+}
+
+.sale .inner .item_wrap .item {
+  /*   max-width: 385px; */
+  width: 385px;
+  height: 100%;
+  border: #1a1a1a 1px solid;
+}
+
+.sale .inner .item_wrap .item:nth-child(2) {
+  min-width: 385px;
+  width: calc(100% - 810px);
+}
+
+.sale .inner .item_wrap .item:nth-child(4) {
+  min-width: 385px;
+  width: calc(100% - 810px);
+}
+
+.sale .inner .item_wrap .item a {}
+
+.sale .inner .item_wrap .item a figure {
+  width: 100%;
+  height: 385px;
+}
+
+.sale .inner .item_wrap .item a figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sale .inner .item_wrap .item a .item_text {
+  padding: 20px;
+}
+
+.sale .inner .item_wrap .item a .item_text>p {
+  margin-bottom: 12px;
+}
+
+.sale .inner .item_wrap .item a .item_text .item_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale .inner .item_wrap .item a .item_text .item_info .price del {
+  color: #9E9E9E;
+  margin-right: 15px;
+}
+
+.sale .inner .item_wrap .item a .item_text .rate {
+  color: #CF0A2C;
+  font-weight: 700;
+}
+
+
+/* 💥💥season visual💥💥 */
+
+.season_visual {
+  width: 100%;
+}
+
+.season_visual .video {
+  width: 100%;
+  max-height: 100vh;
+  height: 48.43vw;
+}
+
+.season_visual .video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.season_visual span {
+  animation-name: season;
+  animation-duration: 3s;
+}
+
+
+.slide_text {
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  position: relative;
+  width: 3000px;
+  animation: textslide 8s linear infinite;
+  margin: 70px 0;
+}
+
+.track p {
+  float: left;
+  width: 500px;
+  font-size: 36px;
+  font-family: 'Theano Didot';
+  font-size: 36px;
+}
+
+@keyframes textslide {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 500px;
+  }
+}
+
+
+
+/* 💥💥season💥💥 */
+
+.season {
+  margin-top: 70px;
+  padding: 150px 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.season .inner h3 {
+  margin-bottom: 100px;
+}
+
+.season .season_cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-height: 792px;
+  height: 49.5vw;
+  gap: 20px;
+}
+
+.season .season_cont .poster {
+  max-width: 792px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.season .season_cont .poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.season .season_cont .poster .poster_text {
+  position: absolute;
+  left: 70px;
+  bottom: 70px;
+  font-size: 24px;
+}
+
+.season .season_cont .poster .poster_text p {
+  margin-bottom: 24px;
+}
+
+.season .season_cont .poster .poster_text>span {
+  display: block;
+  margin-bottom: 36px;
+  line-height: 1.4;
+}
+
+.season .season_cont .poster .poster_text a span {
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.season .season_cont .item_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 790px;
+  width: 100%;
+  row-gap: 28px;
+}
+
+.season .season_cont .item_wrap .item {
+  max-width: 31.5%;
+}
+
+.season .season_cont .item_wrap .item figure {
+  width: 100%;
+  max-height: 320px;
+  height: 20vw;
+}
+
+.season .season_cont .item_wrap .item figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.season .season_cont .item_wrap .item .item_text {
+  margin-top: 16px;
+}
+
+.season .season_cont .item_wrap .item .item_text p {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* 💥💥campaign💥💥 */
+
+.campaign .cont_wrap {
+  width: 100%;
+  margin: 150px 0;
+  display: flex;
+}
+
+.campaign .cont_wrap .cont {
+  width: 25%;
+  border: 1px #1a1a1a solid;
+  border-style: solid solid solid none;
+}
+
+.campaign .cont_wrap .cont:nth-child(4) {
+  border-style: solid none;
+}
+
+.campaign .cont_wrap .cont h4 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 36px 24px;
+}
+
+.campaign .cont_wrap .cont figure {
+  width: 100%;
+  height: 25vw;
+  border-top: 1px #1a1a1a solid;
+  border-bottom: 1px #1a1a1a solid;
+}
+
+.campaign .cont_wrap .cont figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.campaign .cont_wrap .cont a {
+  padding: 36px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.campaign .cont_wrap .cont a span {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1280px) {
+
+  .new_arrival .inner100 .sec_text .title {
+    display: block;
+  }
+
+  .new_arrival .inner100 .sec_text .title h3 {
+    margin-bottom: 24px;
+  }
+
+  .sale .inner .sec_text .title {
+    display: block;
+  }
+
+  .sale .inner .sec_text .title h3 {
+    margin-bottom: 24px;
+  }
+
+  .sale .inner .item_wrap {
+    row-gap: 20px;
+  }
+
+  .sale .inner .item_wrap .item {
+    max-width: 400px;
+    width: 32%;
+  }
+
+  .sale .inner .item_wrap .item:nth-child(2) {
+    min-width: 0;
+    max-width: 400px;
+    width: 32%;
+  }
+
+  .sale .inner .item_wrap .item:nth-child(4) {
+    min-width: 0;
+    max-width: 400px;
+    width: 32%;
+  }
+
+  .sale .inner .item_wrap .item a figure {
+    max-height: 400px;
+    height: 31.25vw;
+  }
+
+
+  .season .season_cont .poster .poster_text {
+    left: 50px;
+    bottom: 50px;
+  }
+}
+
+/* 1280 */
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+  .main_visual .main_text .title h2 {
+    font-size: 60px;
+    margin-bottom: 28px;
+  }
+
+  .main_visual .main_text .title p {
+    font-size: 28px;
+  }
+
+  .new_arrival .inner100 {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .new_arrival .inner100 .item_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 48px;
+
+  }
+
+  .new_arrival .inner100 .item_wrap .item {
+    max-width: 314px;
+    width: 31.7%;
+  }
+
+  .new_arrival .inner100 .item_wrap .item:nth-child(n + 7) {
+    display: none;
+  }
+
+  .new_arrival .inner100 .item_wrap .item figure {
+    width: 100%;
+    max-height: 388px;
+    height: 38.96vw;
+    margin-bottom: 24px;
+  }
+
+  .new_arrival .inner100 .item_wrap .item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .new_arrival .inner100 .item_wrap .item .item_text p {
+    margin-bottom: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .mobile.view_btn {
+    margin-top: 70px;
+    text-align: right;
+  }
+
+  .mobile.view_btn span {
+    font-size: 18px;
+    margin-right: 12px;
+  }
+
+  .slide_text {
+    display: none;
+  }
+
+
+  .season_visual .video {
+    height: 62.5vw;
+  }
+
+  .season {
+    margin-top: 0;
+  }
+
+  .season .season_cont {
+    display: block;
+    max-height: none;
+    height: 100%;
+  }
+
+  .season .season_cont .poster {
+    max-width: 1004px;
+    max-height: 1004px;
+    height: 95.8vw;
+    margin-bottom: 48px;
+  }
+
+  .season .season_cont .item_wrap {
+    max-width: 100%;
+    row-gap: 48px;
+  }
+
+  .season .season_cont .item_wrap .item {
+    max-width: none;
+    width: 31.7%;
+  }
+
+  .season .season_cont .item_wrap .item figure {
+    width: 100%;
+    max-height: 388px;
+    height: 38.96vw;
+  }
+
+  .season .season_cont .item_wrap .item .item_text {
+    margin-top: 24px;
+  }
+
+  .season .season_cont .poster .poster_text>span {
+    margin-bottom: 0;
+  }
+
+  .main_visual .main_text .title h2 {
+    font-size: 60px;
+  }
+
+  .main_visual .main_text .title p {
+    font-size: 24px;
+  }
+
+  .campaign .cont_wrap .cont h4 {
+    padding: 24px 16px;
+  }
+
+  .campaign .cont_wrap .cont a {
+    padding: 24px 16px;
+  }
+
+}
+
+/* 1024 */
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px) {
+
+  /* 💥new💥 */
+
+  .new_arrival .inner100 {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .new_arrival .inner100 .sec_text {
+    margin: 0 0 70px
+  }
+
+  .new_arrival .inner100 .sec_text .title h3 {
+    font-size: 36px;
+  }
+
+  .new_arrival .inner100 .sec_text .title p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .new_arrival .inner100 .item_wrap .item:nth-child(n + 7) {
+    display: none;
+  }
+
+  .new_arrival .inner100 .item_wrap .item figure {
+    width: 100%;
+    max-height: 40.65vw;
+    height: 374px;
+    margin-bottom: 24px;
+  }
+
+  .new_arrival .inner100 .item_wrap .item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .new_arrival .inner100 .item_wrap .item .item_text p {
+    margin-bottom: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .mobile.view_btn {
+    margin-top: 70px;
+    text-align: right;
+  }
+
+  .mobile.view_btn span {
+    font-size: 18px;
+    margin-right: 12px;
+  }
+
+
+  /* 💥sale💥 */
+
+
+  .sale .inner {
+    padding: 100px 0;
+  }
+
+  .sale .inner .sec_text {
+    margin-bottom: 70px;
+  }
+
+  .sale .inner .sec_text .title h3 {
+    font-size: 36px;
+  }
+
+  .sale .inner .sec_text .title p {
+    font-size: 20px;
+  }
+
+  .sale .inner .item_wrap {
+    row-gap: 48px;
+  }
+
+  .sale .inner .item_wrap .item {
+    max-width: 450px;
+    width: 48.3%;
+  }
+
+  .sale .inner .item_wrap .item:nth-child(2) {
+    min-width: 0;
+    max-width: 450px;
+    width: 48.3%;
+  }
+
+  .sale .inner .item_wrap .item:nth-child(4) {
+    min-width: 0;
+    max-width: 450px;
+    width: 48.3%;
+  }
+
+  .sale .inner .item_wrap .item a figure {
+    max-height: 450px;
+    height: 48.91vw;
+  }
+
+
+  .sale .inner .item_wrap .item a .item_text {
+    padding: 24px;
+  }
+
+  .slide_text {
+    display: none;
+  }
+
+  .sale .inner .item_wrap .item a .item_text>p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .sale .inner .item_wrap .item a .item_text .item_info .price del {
+    margin-right: 8px;
+  }
+
+
+  /* 💥season💥 */
+  .season {
+    padding: 100px 0;
+  }
+
+  .season .inner h3 {
+    font-size: 36px;
+    margin-bottom: 70px;
+  }
+
+  .season .season_cont .poster .poster_text {
+    font-size: 20px;
+  }
+
+  .season .season_cont .item_wrap .item .item_text p {
+    margin-bottom: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  /* 💥campaign💥 */
+
+  .campaign .cont_wrap {
+    width: calc(100% - 40px);
+    margin: 100px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+  }
+
+  .campaign .cont_wrap .cont {
+    /*     max-width: 450px; */
+    width: 48.9%;
+    border-style: solid;
+  }
+
+  .campaign .cont_wrap .cont:nth-child(4) {
+    border-style: solid;
+  }
+
+  .campaign .cont_wrap .cont figure {
+    height: 48vw;
+  }
+
+  /* 💥campaign💥 */
+
+}
+
+/* 960 */
+
+
+
+@media screen and (max-width:540px) {
+
+  .new_arrival .inner100 .sec_text .title h3 {
+    font-size: 24px;
+  }
+
+  .new_arrival .inner100 .sec_text .title p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .new_arrival .inner100 .item_wrap .item figure {
+    margin-bottom: 16px;
+  }
+
+  .new_arrival .inner100 .item_wrap .item .item_text p {
+    margin-bottom: 10px;
+  }
+
+  .new_arrival .inner100 .item_wrap {
+    row-gap: 36px;
+  }
+
+  .mobile.view_btn span {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+
+  .mobile.view_btn svg {
+    width: 50px;
+  }
+
+  .sale .inner .sec_text .title h3 {
+    font-size: 24px;
+  }
+
+  .sale .inner .sec_text .title p {
+    font-size: 16px;
+  }
+
+  .sale .inner .item_wrap {
+    row-gap: 36px;
+  }
+
+  .sale .inner .item_wrap .item a .item_text {
+    padding: 12px;
+  }
+
+  .sale .inner .item_wrap .item a .item_text>p {
+    margin-bottom: 12px;
+  }
+
+  .season .inner h3 {
+    font-size: 24px;
+  }
+
+  .season .season_cont .poster {
+    margin-bottom: 36px;
+  }
+
+  .season .season_cont .poster .poster_text p {
+    font-size: 16px;
+  }
+
+  .season .season_cont .poster .poster_text>span {
+    font-size: 16px;
+  }
+
+  .season .season_cont .poster .poster_text a span {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .season .season_cont .poster .poster_text a svg {
+    width: 50px;
+  }
+
+  .season .season_cont .item_wrap {
+    row-gap: 36px;
+  }
+
+  .season .season_cont .item_wrap .item .item_text {
+    margin-top: 16px;
+  }
+
+  .season .season_cont .item_wrap .item .item_text p {
+    margin-bottom: 10px;
+  }
+
+  .campaign .cont_wrap {
+    row-gap: 36px;
+  }
+
+  .campaign .cont_wrap .cont h4 {
+    font-size: 16px;
+    padding: 20px 16px;
+  }
+
+  .campaign .cont_wrap .cont a {
+    padding: 20px 16px;
+  }
+
+  .campaign .cont_wrap .cont a span {
+    font-size: 14px;
+  }
+
+  .campaign .cont_wrap .cont a svg {
+    width: 50px;
+  }
+
+}
+
+/* 540 */
+
+
+
+@media screen and (max-width:480px) {
+
+
+  .main_visual .main_text>p {
+    margin-bottom: 36px;
+  }
+
+  .main_visual .main_text .title h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .main_visual .main_text .title p {
+    font-size: 18px;
+    margin-bottom: 36px;
+  }
+
+  .main_visual .main_text a {
+    padding: 12px 30px;
+  }
+
+  .new_arrival .inner100 {
+    padding: 70px 0;
+  }
+
+  .new_arrival .inner100 .sec_text {
+    margin-bottom: 50px;
+  }
+
+  .new_arrival .inner100 .sec_text .title h3 {
+    margin-bottom: 20px;
+  }
+
+  .mobile.view_btn {
+    margin-top: 50px;
+  }
+
+  .new_arrival .inner100 .item_wrap .item {
+    max-width: 210px;
+    width: 47.7%;
+  }
+
+  .new_arrival .inner100 .item_wrap .item figure {
+    width: 100%;
+    max-height: 268px;
+    height: 60vw;
+  }
+
+  .sale .inner {
+    padding: 70px 0;
+  }
+
+  .sale .inner .sec_text .title h3 {
+    margin-bottom: 20px;
+  }
+
+  .sale .inner .sec_text {
+    margin-bottom: 50px;
+  }
+
+  .sale .inner .item_wrap .item {
+    width: 47.7%;
+  }
+
+  .sale .inner .item_wrap .item:nth-child(2) {
+    width: 47.7%;
+  }
+
+  .sale .inner .item_wrap .item:nth-child(4) {
+    width: 47.7%;
+  }
+
+  .sale .inner .item_wrap .item a .item_text>p {
+    margin-bottom: 10px;
+  }
+
+  .sale .inner .item_wrap .item a .item_text .item_info {
+    align-items: flex-end;
+  }
+
+  .sale .inner .item_wrap .item a .item_text .item_info .price del {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+
+  .season {
+    padding: 70px 0;
+  }
+
+  .season .inner h3 {
+    margin-bottom: 50px;
+  }
+
+  .season .season_cont .poster .poster_text {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .season .season_cont .item_wrap .item {
+    max-width: 210px;
+    width: 47.7%;
+  }
+
+  .season .season_cont .item_wrap .item figure {
+    width: 100%;
+    max-height: 268px;
+    height: 60vw;
+  }
+
+  .campaign .cont_wrap {
+    margin: 70px auto;
+  }
+
+  .campaign .cont_wrap .cont {
+    width: 100%;
+  }
+
+  .campaign .cont_wrap .cont figure {
+    height: 88vw
+  }
+
+}
+
+/* 480 */
